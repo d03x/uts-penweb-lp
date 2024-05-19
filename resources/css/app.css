@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins&display=swap');
+@import url('../../node_modules/bootstrap/dist/css/bootstrap.css');
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+body{
+    scroll-behavior: smooth;
+}
+.navbar{
+box-shadow: 0px 0px 16px #dedede;
+}
+.navbar-nav .nav-link{
+    font-weight: 500;
+    color: black;
+}
+.navbar-nav .nav-link.active{
+    color: blue;
+}
+.btn{
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 24px;
+    font-weight: 600;
+}
+.btn-brand{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+.btn-brand:hover{
+    background-color: rgba(0, 47, 255, 0.781);
+    color: rgb(255, 255, 255);
+}
+
+
+#hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.856)), url(../../public/mardira.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.section-title{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.section-title .line{
+    width: 60px;
+    height: 4px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 16px auto 24px auto;
+}
+.section-title p{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.profile_card_image{
+    border-radius: 100%;
+    border: 10px solid rgb(255, 255, 255);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    margin: -80px;
+}
+.profile_card_image:hover{
+    transform: scale(1.1) translateY(-10px);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.profile_card{
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+.profile_card_summary {
+    margin-top: 4.6em;
+}
+.card-register{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #d2d2d2;
+}
+.card-register .card-header{
+    border: none;
+    padding: 10px 0px;
+    margin: 0;
+    text-align: center;
+}
+.card-register .card-body{
+    padding: 30px 20px;
+}
+.form-control{
+    border-radius: 0;
+}
